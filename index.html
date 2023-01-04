@@ -177,31 +177,31 @@
 
       <div>
          <h2>Maps</h2>
-               <iframe width="320" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=131.46785258972778%2C32.001882442092835%2C131.47047847235336%2C32.00301973281361&amp;layer=mapnik&amp;marker=32.00245108921666%2C131.46916553104063" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=32.00245&amp;mlon=131.46917#map=19/32.00245/131.46917">View Larger Map</a></small>
+               <iframe width="320" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=131.46785258972778%2C32.001882442092835%2C131.47047847235336%2C32.00301973281361&amp;layer=mapnik&amp;marker=32.00245108921666%2C131.46916553104063" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=32.00245&amp;mlon=131.46917#map=19/32.00245/131.46917">大きな地図で見る</a></small>
       </br>
-</div>
 
-<input type="text" value="〒880-0212 Miyazaki, 佐土原町下那珂3340-4" id="myInput">
-<button onclick="myFunction()">コーピ</button>
 
-<script>
-function myFunction() {
-  // Get the text field
-  var copyText = document.getElementById("myInput");
+      <div>
+         <input type="text" value="〒880-0212 Miyazaki, 佐土原町下那珂3340-4" id="myInput">
+         <button onclick="myFunction()">コーピ</button>
 
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
+            <script>
+               function myFunction() {
+               // Get the text field
+               var copyText = document.getElementById("myInput");
 
-  // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
+               // Select the text field
+               copyText.select();
+               copyText.setSelectionRange(0, 99999); // For mobile devices
+
+               // Copy the text inside the text field
+               navigator.clipboard.writeText(copyText.value);
   
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
-}
-</script>
-
-   </div>
+               // Alert the copied text
+               alert("Copied the text: " + copyText.value);
+            }
+            </script>
+      </div>
 </div>
 
 </br>
